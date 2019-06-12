@@ -1,4 +1,6 @@
-# Definição de problema
+# Definição de problema e público
+
+## Problema
 
 O famoso **Grego da FGA** até então não possuia uma plataforma que pudesse facilitar a solicitação de seus pedidos e controle de estoque, além de um simples grupo no WhatsApp onde mantém contato direto com seus clientes.
 
@@ -14,7 +16,7 @@ O protótipo da aplicação abrangerá 02 aspectos principais:
 
  ***
 
- # Definição de publico
+ ## Público
 
  * Comunidade da FGA.
  * Grego
