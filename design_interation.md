@@ -1,3 +1,28 @@
+# <span style="color:#ED5565">Definição de problema e público</span>
+
+## <span style="color:#ED5565">Problema</span>
+
+O famoso <span style="color:#ED5565">**Grego da FGA** </span> até então não possuia uma plataforma que pudesse facilitar a solicitação de seus pedidos e controle de estoque, além de um simples grupo no WhatsApp onde mantém contato direto com seus clientes.
+
+Isso dificulta bastante o processo de venda e gerência de estoque, os tornando lentos e custosos.
+
+O nosso protótipo trás à tona essa problematica e possuí como objetivo desenvolver um protótipo fidedigno de uma aplicação web para este serviço.
+
+O protótipo da aplicação abrangerá 02 aspectos principais:
+
+* <span style="color:#ED5565">1º)</span> O cliente deverá, ao acessar o aplicativo, ter ciencia da quantidade de produtos disponiveis, fazendo com que não haja uma sobrecarga e incoveniências ao <span style="color:#ED5565">**tio do Grego** </span>. Assim, o <span style="color:#ED5565">**tio do Grego** </span> terá um maior controle sobre a venda de seu produto.
+
+ * <span style="color:#ED5565">2º)</span> A fim de facilitar e tornar mais ágil a solicitação dos pedidos, será possível por meio da plataforma que o cliente faça o seu pedido de maneira personalizada. Este pedido deverá chegar ao <span style="color:#ED5565">**tio do Grego** </span> de modo que ele possa acompanhá-lo por meio de seu dispositívo sem que haja a necessidade de uma intervenção pessoal e direta com os clientes.
+
+ ***
+
+ ## <span style="color:#ED5565">Público</span>
+
+ * Comunidade da FGA.
+ * Grego
+
+***
+
 # <span style="color:#ED5565">Logo </span>
 
 ![](./logo/splash.png)
