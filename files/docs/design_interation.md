@@ -133,7 +133,7 @@ Os icones escolhidos seguiram um padrão *flat*, aproveitando-se da ideia de sim
   ![](../assets/flows/9.png)
 
 
-#### <span style="color:#ED5565">Referências de padrões e ferramentas </span>
+## <span style="color:#ED5565">Referências de padrões e ferramentas </span>
 
 * Figma: para design do protótipo de alta fidelidade.
 * Pttrns: para padrões de projeto UI mobile.
