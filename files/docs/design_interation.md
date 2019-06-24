@@ -1,37 +1,56 @@
-# <span style="color:#ED5565">Design de interação</span>
-## <span style="color:#ED5565">Problema</span>
+# <span style="color:#ED5565">Protótipo: Ideação de UX, UI e Design de interação</span>
 
-A barraquinha do <span style="color:#ED5565">**Grego da FGA** </span> até então não possuia uma plataforma que pudesse facilitar a solicitação de seus pedidos e controle de estoque, além de um simples grupo no WhatsApp onde mantém contato direto com seus clientes.
+Neste documento, procura-se descrever o processo desde a motivação por trás da paleta de cores até a interação entre as telas apresentadas.
 
-Isso dificulta bastante o processo de venda e gerência de estoque, os tornando lentos e custosos.
 
-O nosso protótipo trás à tona essa problematica e possuí como objetivo desenvolver um protótipo fidedigno de uma aplicação web para este serviço.
+## <span style="color:#ED5565">UX e UI</span>
+O processo de UX seguiu alguns conceitos básicos, guiados primariamente pelo público alvo do app. Esses princípios foram:
 
-O protótipo da aplicação abrangerá 02 aspectos principais:
+* **Simplicidade**
 
-* <span style="color:#ED5565"></span> O cliente deverá, ao acessar o aplicativo, ter ciencia da quantidade de produtos disponiveis, fazendo com que não haja uma sobrecarga e incoveniências ao <span style="color:#ED5565">**tio do Grego** </span>. Assim, o <span style="color:#ED5565">**tio do Grego** </span> terá um maior controle sobre a venda de seu produto.
+  O app deve ser simples, tanto na navegação quanto na apresentação. Deve contemplar os produtos e as informações derivadas deste (estoque, preço etc) no menor espaço e maior clareza possíveis.  
 
- * <span style="color:#ED5565"></span> A fim de facilitar e tornar mais ágil a solicitação dos pedidos, será possível por meio da plataforma que o cliente faça o seu pedido de maneira personalizada. Este pedido deverá chegar ao <span style="color:#ED5565">**tio do Grego** </span> de modo que ele possa acompanhá-lo por meio de seu dispositívo sem que haja a necessidade de uma intervenção pessoal e direta com os clientes.
+  Essa decisão foi motivada pois seria contraintuitivo apresentar uma ferramenta que dificultasse uma interação informal e rápida como já existe hoje (pelo menos ao realizar os pedidos em horarios mais amenos). 
 
- ***
+  A ideia também surgiu pois são pessoas que estão trabalhando e não possuem tempo/disponibilidade para aprender uma ferramenta complexa - se tornando novamente contraintuiva.
 
- ## <span style="color:#ED5565">Público</span>
+* **Clareza nas informações** 
+  
+   As informações devem ser claras e concisas, levando em conta que são poucos produtos e o serviço oferecido é um só: venda de alimentos.
 
- * Comunidade da FGA.
- * Grego
+* **Velocidade na execução da funcionalidade** 
 
+  O cliente quer comprar ou reservar o seu lanche/almoço, receber e ir embora. O Tio do Grego quer ter controle sobre o estoque e vender os seus lanches com facilidade. Atingindo um app simples e claro, atinge-se também a velocidade na interação.
+
+A interface segue a mesma linha de raciocínio descrita pela UX. Procurou-se o menor número de interações possível relacionada à *inputs* de texto: a maior parte da interação se dá através de botões. 
+
+Nas situações onde é requisitado inputs de texto, são em momentos específicos onde é necessário saber os dados necessários para prosseguir: nome, telefone e senha no cadastro ou apenas o nome quando o usuário prosseguir sem o cadastro.
+
+A decisão de habilitar um fluxo sem o cadastro é motivado para atrair o usuário a utilizar o app e retirar uma barreira. Caso ele opte por essa opção, ao fechar uma reserva ou pedido no local, ele pode ser redirecionado para o cadastro - este já é um padrão de mercado bem utilizado em plataformas de *e-commerce*.
+
+A decisão de colocar à vista do cliente a quantidade de sanduíches e marmitas restantes é para auxiliar na compra e programação daqueles alunos que precisam comprar em cima da hora e não darem viagem perdida ou precisarem contatar algum funcionário para conferir se ainda há estoque.
+
+### <span style="color:#ED5565">Paleta de cores </span>
+A paleta de cores seguiu uma ideia de cores quentes/pasteis para alguns itens mais pontuais, como os botões e a logo. A ideia surgiu de uma simplificação de uma paleta de cores com a temática de churrasco/alimentação que vimos ao buscar referências.
+
+Também foram utilizadas cores frias/neutras para "quebrar" a intensidade das cores mais quentes.
+
+Foi feito uso de ícones para compor cores cores em telas predominantemente mais "frias".
+
+![](../assets/colors/colors.svg)
 ***
 
-# <span style="color:#ED5565">Logo </span>
+### <span style="color:#ED5565">Logo </span>
+
+A logo escolhida foi uma espátula e um garfo, utensílios de cozinha utilizados na preparação dos pratos do Grego, churrasco e 
 
 ![](../assets/logo/splash.png)
 ***
 
-# <span style="color:#ED5565">Paleta de cores </span>
-![](../assets/colors/colors.svg)
-***
+### <span style="color:#ED5565">Ícones </span>
 
-# <span style="color:#ED5565">Ícones </span>
+Os icones escolhidos seguiram um padrão *flat*, aproveitando-se da ideia de simplicidade e informalidade da UX.
+
 ![](../assets/icons/logo.svg)
 ![](../assets/icons/pan.svg)
 ![](../assets/icons/person.svg)
@@ -41,15 +60,15 @@ O protótipo da aplicação abrangerá 02 aspectos principais:
 ![](../assets/icons/finish.svg)
 ***
 
-# <span style="color:#ED5565">Fonte e tamanhos</span>
+### <span style="color:#ED5565">Fonte e tamanhos</span>
 ![](../assets/icons/fonts_and_sizes.svg)
 ***
 
-# <span style="color:#ED5565">Fluxos</span>
+## <span style="color:#ED5565">Fluxos</span>
 
-## <span style="color:#ED5565">Fluxos de login e cadastro</span>
+#### <span style="color:#ED5565">Fluxos de login e cadastro</span>
 
-### Quando eu abro o aplicativo GregoApp eu quero:
+###### Quando eu abro o aplicativo GregoApp eu quero:
 
  <span style="color:#ED5565">1)</span> Navegar no aplicativo sem cadastro;  
  <span style="color:#ED5565">2)</span> Entrar usando o meu número de celular e senha;  
@@ -74,9 +93,9 @@ O protótipo da aplicação abrangerá 02 aspectos principais:
 
 ***
 
-## <span style="color:#ED5565">Fluxos de reserva e pedido </span>
+#### <span style="color:#ED5565">Fluxos de reserva e pedido </span>
 
-### Quando eu entro no aplicativo GregoApp eu quero:
+#### Quando eu entro no aplicativo GregoApp eu quero:
 
  <span style="color:#ED5565">1)</span> Reservar a minha marmita;  
  <span style="color:#ED5565">2)</span> Visualizar a lista de todos os meus pedidos já feitos;  
@@ -114,3 +133,9 @@ O protótipo da aplicação abrangerá 02 aspectos principais:
   ![](../assets/flows/9.png)
 
 
+#### <span style="color:#ED5565">Referências de padrões e ferramentas </span>
+
+* Figma: para design do protótipo de alta fidelidade.
+* Pttrns: para padrões de projeto UI mobile.
+* FlatIcons: para ícones gratuitos.
+* GoogleFonts: para buscar e testar fontes que poderiam vir a ser utilizadas no app.
