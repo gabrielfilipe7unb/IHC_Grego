@@ -1,3 +1,29 @@
+# <span style="color:#ED5565">Logo </span>
+
+![](./logo/splash.png)
+
+***
+
+# <span style="color:#ED5565">Paleta de cores </span>
+
+## <span style="color:#ED5565">Botões</span>
+
+![](./colors/botoes.png)
+
+## <span style="color:#ED5565">Logo</span>
+
+![](./colors/l.png)
+
+## <span style="color:#ED5565">Background</span>
+
+![](./colors/background.png)
+
+## <span style="color:#ED5565">Letras</span>
+
+![](./colors/letras.png)
+
+***
+
 # <span style="color:#ED5565">Fluxos</span>
 
 ## <span style="color:#ED5565">Fluxos de login e cadastro</span>
@@ -67,5 +93,3 @@
   <span style="color:#ED5565">6)</span> Quero poder deletar um pedido já selecionado.  
 
   ![](./flows/9.png)
-
-
